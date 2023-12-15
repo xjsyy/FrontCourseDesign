@@ -1,0 +1,152 @@
+<!-- edu_10_1_5.html -->
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="">
+	<meta name="Keywords" content="">
+	<meta name="Description" content="">
+	<title>多行三行模式布局</title>
+	<link rel="stylesheet" href="layout5.css" type="text/css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="nav">
+				<div class="logo">
+					<img src="img/logo.png" alt="logo" title="logo" id="logo">
+				</div>
+				<div class="link">
+					<div class="topLink">
+						<a class="topa" href="">在校生 &nbsp;|</a>
+						<a class="topa" href=""> &nbsp;教职工 &nbsp;|</a>
+						<a class="topa" href=""> &nbsp;访客 &nbsp;|</a>
+						<a class="topa" href=""> &nbsp;RSS</a>
+					</div>
+					<div class="bottomLink">
+						<nav>
+							<ul>
+								<li><a href="#">学校概况</a>
+									<ul>
+										<li><a href="#">学校简介</a></li>
+										<li><a href="#">现任领导</a></li>
+										<li><a href="#">历任领导</a></li>
+										<li><a href="#">文化标识</a></li>
+										<li><a href="">烟大文创</a></li>
+									</ul>
+								</li>
+								<li><a href="#">机构设置</a>
+									<ul>
+										<li><a href="#">学院设置</a></li>
+										<li><a href="#">组织结构</a></li>
+									</ul>
+								</li>
+								<li><a href="#">师资力量</a></li>
+								<li><a href="#">人才培养</a>
+									<ul>
+										<li><a href="#">本科生教育</a></li>
+										<li><a href="#">研究生教育</a></li>
+										<li><a href="#">留学生教育</a></li>
+										<li><a href="#">继续教育</a></li>
+										<li><a href="">学工在线</a></li>
+										<li><a href="">烟大青年</a></li>
+									</ul>
+								</li>
+								<li><a href="#">科学研究</a>
+									<ul>
+										<li><a href="#">自然科学</a></li>
+										<li><a href="#">社会科学</a></li>
+										<li><a href="#">学术期刊</a></li>
+									</ul>
+								</li>
+								<li><a href="#">合作交流</a>
+									<ul>
+										<li><a href="#">服务地方</a></li>
+										<li><a href="#">国际交流</a></li>
+									</ul>
+								</li>
+								<li><a href="">人才招聘</a></li>
+								<li><a href="">招生就业</a>
+									<ul>
+										<li><a href="#">本科生招生</a></li>
+										<li><a href="#">研究生招生</a></li>
+										<li><a href="#">留学生招生</a></li>
+										<li><a href="#">继续教育招生</a></li>
+										<li><a href="">就业信息网</a></li>
+										<li><a href="">出国留学</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="flexslider">
+				<img src="img/2023xisixiang.jpg" id="slideshow" style="width: 100%;;">
+			</div>
+			<div class="functionLink">
+				<ul>
+					<li class="functionLi"><img src="img/bs13.png" alt=""><a href="#" class="functionA">办事服务大厅</a></li>
+					<li class="functionLi"><a href="#" class="functionA">办公系统</a></li>
+					<li class="functionLi"><a href="#" class="functionA">智慧校园</a></li>
+					<li class="functionLi"><a href="#" class="functionA">数字图书</a></li>
+					<li class="functionLi"><a href="#" class="functionA">招标信息</a></li>
+					<li class="functionLi"><a href="#" class="functionA">VPN服务</a></li>
+					<li class="functionLi"><a href="#" class="functionA">校友网</a></li>
+					<li class="functionLi"><a href="#" class="functionA">基金会</a></li>
+					<li class="functionLi"><a href="#" class="functionA">网上民生</a></li>
+					<li class="functionLi"><a href="#" class="functionA">信息公开</a></li>
+				</ul>
+			</div>
+			<div class="xisixiang">
+				<img src="img/yt20230427134805.jpg" alt="" style="display: flex;align-items: center               ;">
+			</div>
+			<div class="left">
+				<div class="left_up_1">left_up_1</div>
+				<div class="left_up_2">left_up_2</div>
+				<div class="left_down_1">left_down_1</div>
+				<div class="left_down_2">left_down_2</div>
+			</div>
+			<div class="center">
+				<div class="center_up">center_up</div>
+				<div class="center_down">center_down</div>
+			</div>
+			<div class="right">
+				<div class="right_up">right_up</div>
+				<div class="right_down">right_down</div>
+			</div>
+		</div>
+		<div class="footer">footer</div>
+	</div>
+</body>
+<script>
+	var images = ["img/2023daxue.jpg",
+		"img/2023xisixiang.jpg",
+		"img/bajiaowangengxin.jpg",
+		"img/jiaoshijie.jpg",
+		"img/20231125.jpg",
+		"img/20231214.jpg",
+		"img/20231124.jpg",
+		"img/2023112502.jpg",
+		"img/tiaozhanbei.jpg"]; // 图片数组
+	var currentIndex = 0; // 当前图片索引
+
+	function changeImage() {
+		var slideshow = document.getElementById("slideshow");
+		slideshow.src = images[currentIndex]; // 切换图片
+
+		currentIndex++; // 增加索引
+		if (currentIndex >= images.length) {
+			currentIndex = 0; // 如果索引超过数组长度，重置为0
+		}
+	}
+
+	setInterval(changeImage, 3000); // 每1秒切换一次图片
+</script>
+
+</html>
