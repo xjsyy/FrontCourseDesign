@@ -146,7 +146,7 @@ ul li ul li a:hover {
 	background: none;
 	line-height: 29px;
 	border: none;
-	font-size: medium
+	font-size: small;
 }
 .functionLi:hover{
 	transform: translate(0px,-10px);
