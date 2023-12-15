@@ -113,6 +113,9 @@ ul li ul li a:hover {
 	height: 500px;
 }
 .functionLink{
+	display: flex;
+	align-items: center;
+	/* text-align: center; */
 	width: 100%;
 	height: 120px;
 	background-color: #daefff; /*设置背景条纹*/
@@ -125,7 +128,9 @@ ul li ul li a:hover {
 	width: 115px;
 	list-style: none;
 	float: left;
-	/* margin-left: 10px; */
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	/* display: inline; */
 	font-size: large ;
 	text-align: center
@@ -142,7 +147,7 @@ ul li ul li a:hover {
 	background: none;
 	line-height: 29px;
 	border: none;
-	font-size: medium
+	font-size: small;
 }
 .functionLi:hover{
 	transform: translate(0px,-10px);
