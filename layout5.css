@@ -49,6 +49,7 @@
 	padding-top: 30px;
 	float: right;
 	margin-right: 30px;
+	/* margin-top: -90px; */
 }
 /* 下拉列表 */
 ul li {
@@ -82,7 +83,7 @@ ul li ul li {
 }
 
 ul li ul li a {
-	font-size:small;
+	font-size:medium;
 	text-align: center;
 	background: #daefff;
 	line-height: 24px;
@@ -106,13 +107,14 @@ ul li:hover ul {
 ul li ul li a:hover {
 	background: #6483c2;
 }
-
 .main {
-	/* background: #33DD55; */
 	width: 100%;
-	height: 500px;
+	height: 520px;
 }
 .functionLink{
+	display: flex;
+	align-items: center;
+	/* text-align: center; */
 	width: 100%;
 	height: 120px;
 	background-color: #daefff; /*设置背景条纹*/
@@ -125,7 +127,9 @@ ul li ul li a:hover {
 	width: 115px;
 	list-style: none;
 	float: left;
-	/* margin-left: 10px; */
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 	/* display: inline; */
 	font-size: large ;
 	text-align: center
@@ -151,74 +155,58 @@ ul li ul li a:hover {
 	background: none;
 }
 .left {
-	background: #33FBFB;
-	width: 33%;
+	/* background: #33FBFB; */
+	width: 66%;
 	height: 100%;
 	float: left;
 }
-
-.left_up_1 {
-	background: #99BBDD;
-	width: 100%;
-	height: 125px;
+.newsLogo{
+	font-size: 30px;
+	color: #014da1;
+	float: left;
+	padding-left: 40px;
 }
-
-.left_up_2 {
-	background: #AABBCC;
-	width: 100%;
-	height: 125px;
+#info{
+	/* float: left; */
 }
-
-.left_down_1 {
-	background: #BBCCDD;
-	width: 100%;
-	height: 125px;
+.infoa{
+	float: left;
+	font-size: 25px;
+	color: #014da1;
+	text-decoration: none;
+	margin-bottom: 30px;
 }
-
-.left_down_2 {
-	background: #CCDDEE;
-	width: 100%;
-	height: 125px;
-}
-
-.center {
-	background: #88FBFB;
-	width: 34%;
-	height: 100%;
+.leftright{
 	float: left;
 }
-
-.center_up {
-	background: white;
-	width: 100%;
-	height: 200px;
+.rightinfo{
+	float: left;
+	width: 500px;
+	height: 720px;
 }
-
-.center_down {
-	background: #44DD22;
-	width: 100%;
-	height: 300px;
+.event{
+	margin-top: 30px;
 }
-
+.eventTitle{
+	color: #014da1;
+	font-size: 20px;
+	font-weight: 500;
+}
+.eventTitle:hover{
+	transform: translate(10px,0);
+}
+.newspaper{
+	float: left;
+	width: 20%;
+	margin-right: 15px;
+	border: 1px solid #daefff;
+}
 .right {
-	background: #DDFBFB;
+	/* background: #DDFBFB; */
 	width: 33%;
 	height: 100%;
 	float: left;
 }
-
-.right_up {
-	background: #55DDFB;
-	width: 100%;
-	height: 150px;
-}
-
-.right_down {
-	background: #667733;
-	width: 100%;
-	height: 350px;
-}
-
 .footer {
 	background: #DDDD11;
 	width: 100%;
