@@ -213,17 +213,16 @@ ul li ul li a:hover {
 	width: 100%;
 	height: 400px;
 } */
-.dynamic {
-	background: url("img/wenhua.jpg");
-	/* background: #DDDD11; */
-	width: 100%;
-	height: 470px;
-	clear: both;
-}
 
 
 
 /* 动态板块 */
+.dynamic {
+	background: url("img/wenhua.jpg");
+	width: 100%;
+	height: 470px;
+	clear: both;
+}
 .academic{
 	float: left;
 	width: 415px;
@@ -323,4 +322,111 @@ ul li ul li a:hover {
 	color: #014da1;
 	font-size: larger;
 	margin-top: 15px;
+}
+/* 公告板块设计 */
+.bulletin{
+	width: 100%;
+	height: 410px;
+	/* background: #6483c2; */
+}
+.officalBulletin{
+	float: left;
+	width: 390px;
+	height: 367.8px;
+	margin-left: 115px;
+	margin-top: 40px;
+	/* background: #014da1; */
+}
+.officalBulletinTitle{
+	float: left;
+}
+.officalBulletinA{
+	font-size: 25px;
+	text-decoration: none;
+	color: #121ea4;
+	font-family: 'SimSun', sans-serif;
+	font-weight: bold;
+	margin-left: 15px;
+}
+.officalBulletinMore{
+	float: right;
+	color: #014da1;
+	font-size: larger;
+	font-weight: bold;
+	font-family: 'SimSun', sans-serif;
+}
+/* .noticeList{
+	
+} */
+.noticeList {
+	width: 350px;
+	display: -webkit-box;
+	/* margin-top: 20px; */
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	-webkit-line-clamp: 2; /* 设置显示的行数 */
+}
+
+.noticeList p {
+	margin-top: 30px; /* 为了去除段落的默认上下边距 */
+	color: #121ea4;
+	font-size: larger;
+	font-family: 'SimSun', sans-serif;
+}
+.bigEvent{
+	width: 871px;
+	height: 370px;
+	/* background: #a7abb3; */
+	margin-left: 50px;	
+	margin-top: 40px;
+	float: left;
+}
+.bigEventTitle{
+	float: left;
+}
+.bigEventA{
+	font-size: 25px;
+	text-decoration: none;
+	color: #121ea4;
+	font-family: 'SimSun', sans-serif;
+	font-weight: bold;
+	margin-left: 15px;
+}
+.bigEventMore{
+	float: right;
+	color: #014da1;
+	font-size: larger;
+	font-weight: bold;
+	font-family: 'SimSun', sans-serif;
+}
+.bigEvent img{
+	margin-top: 10px;
+	margin-left: 100px;
+}
+.image-container {
+	position: relative;
+	max-width: 1000px;
+}
+
+.image-container img {
+	width: 80%; /* 图片宽度占满容器 */
+	height: auto; /* 保持图片纵横比 */
+}
+
+.caption {
+	width: 76.5%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(128, 128, 128, 0.5);
+	color: #fff; /* 设置文字颜色为白色 */
+	padding: 15px; /* 设置文字容器的内边距 */
+	text-align: center; /* 文字居中 */
+	margin-left: 115px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: block;
+	white-space: nowrap; 
 }
