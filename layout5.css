@@ -526,3 +526,113 @@ ul li ul li a:hover {
   transition-property: all;
   transition-duration: 3s;
 }
+.culture{
+	width: 100%;
+	height: 450px;
+}
+.rightCulture{
+	float: left;
+	height: 440px;
+	width: 780px;
+	margin-left: 100px;
+	margin-top: 30px;
+	background: #6483c2;
+}
+.schoolCulture{
+	width: 100%;
+	height: 232px;
+	background: url("img/f-1.png");
+}
+.schoolCultureTitle{
+	width: 100%;
+	height: 70px;
+	
+}
+.schoolCultureTitle h1 a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 25px;
+	margin-left: 30px;
+	font-family: 'SimSun', sans-serif;
+}
+.schoolCultureMore{
+	height: 162px;
+	width: 130px;
+	float: left;
+}
+.schoolCultureMore a{
+	text-decoration: none;
+	color: #FFF;
+	margin-left: 30px;
+	width: 650px;
+}
+
+.schoolCultureEvent a{
+	color: #fff;
+	text-decoration: none;
+}
+.schoolCultureEvent a span{
+	float: right;
+	margin-right: 10px;
+}
+.schoolImg{
+	float: left;
+	width: 390px;
+	height: 208px;
+	background: url("img/686E263D6D98AB9BBBB7E87B5E8_2E686DD9_2FA43.jpg");
+	background-size: 100%;
+}
+.schoolImg a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 30px;
+	margin-left: 30px;
+	font-family: 'SimSun', sans-serif;
+}
+.schoolVideo{
+	float: left;
+	width: 390px;
+	height: 208px;
+	background: url("img/EA5C05F6B78925B5DDC4BFC0720_D661AC7E_EDD6.jpg");
+	background-size: 100%;
+}
+.schoolVideo a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 30px;
+	margin-left: 30px;
+	font-family: 'SimSun', sans-serif;
+}
+.leftCulture{
+	float: left;
+	background: url("img/ydgs.png");
+	background-size: 100%;
+	width: 520px;
+	height: 440px;
+	margin-top: 30px;
+}
+.leftCulture h1{
+	float: left;
+	width: 30px;
+	height: 110px;
+	color: #cc233a;
+	margin-left: 35px;
+	margin-top: 30px;
+	font-size:25px;
+	font-family: 'SimSun', sans-serif;
+}
+.leftCultureMore{
+	margin-top: 180px;
+	margin-left: 60px;
+	color: #cc233a;
+	width: 30px;
+	height: 110px;
+	font-size:20px;
+	font-weight: bold;
+	font-family: 'SimSun', sans-serif;
+}
+.rightCultureEvent a{
+	text-decoration: none;
+	color: #014da1;
+	margin-left: 25px;
+}
