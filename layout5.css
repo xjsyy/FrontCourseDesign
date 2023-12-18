@@ -93,7 +93,7 @@ ul li ul li a {
 }
 
  ul li a:hover {
-	background: #898984;
+	background-color: rgba(107, 107, 107, 0.5);
 }
 
 ul li ul {
@@ -297,6 +297,7 @@ ul li ul li a:hover {
 	text-decoration: none;
 }
 .notice:hover{
+	transition-duration: 1s;
 	transform: translate(10px,0);
 }
 .society{
@@ -392,6 +393,9 @@ ul li ul li a:hover {
 	font-weight: bold;
 	margin-left: 15px;
 }
+#bigEventLink{
+	margin-left: 15px;
+}
 .bigEventMore{
 	float: right;
 	color: #014da1;
@@ -429,4 +433,96 @@ ul li ul li a:hover {
 	text-overflow: ellipsis;
 	display: block;
 	white-space: nowrap; 
+}
+
+/*  风采展示板块设计  */
+.display{
+	height: 411px;
+	background: url("img/bg2.jpg")
+}
+.displayTeacher{
+	float: left;
+	width: 500px;
+	/* height: 720px; */
+	margin-left: 30px;
+	margin-top: 50px;
+}
+.displayEvent{
+	margin-top: 27px;
+}
+.displayTitle{
+	height: 80px;
+	color: #FFF;
+}
+.displayTeacherTitle{
+	float: left;
+}
+
+.displayTeacherA{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	font-family: 'SimSun', sans-serif;
+	font-weight: bold;
+	margin-left: 15px;
+}
+.displayPic{
+	float: left;
+	width: 15%;
+	margin-right: 15px;
+	border: 1px solid #FFF;
+}
+.displayTeacherMore a{
+	float: right;
+	color: white;
+	margin-right: 50px;
+	font-size: medium;
+	font-weight: bold;
+	font-family: 'SimSun', sans-serif;
+}
+.displayTechnology{
+	float: left;
+	width: 500px;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+.displayTechnologyTitle{
+	float: left;
+}
+/* .displayTechnologyA{
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	font-family: 'SimSun', sans-serif;
+	font-weight: bold;
+	margin-left: 15px;
+} */
+.displayTechnologyMore a{
+	float: right;
+	color: white;
+	margin-right: 50px;
+	font-size: medium;
+	font-weight: bold;
+	font-family: 'SimSun', sans-serif;
+}
+.displayClassmate{
+	float: left;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+.displayClassmateTitle{
+	float: left;
+}
+.displayClassmateMore a{
+	float: right;
+	color: white;
+	margin-right: 50px;
+	font-size: medium;
+	font-weight: bold;
+	font-family: 'SimSun', sans-serif;
+}
+.displayTitle:hover{
+	transform: scale(0.9);
+  transition-property: all;
+  transition-duration: 3s;
 }
