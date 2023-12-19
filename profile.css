@@ -1,0 +1,299 @@
+* {
+  font-size: 16px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.header {
+  position: relative;
+  /* 重要：设置为相对定位 */
+
+}
+
+.logo {
+  width: 30%;
+  height: 150px;
+  float: left;
+  margin-left: 10px;
+}
+
+/* .link{
+	width: 50%;
+	background: #af0657;
+	height: 150px;
+	float: left;
+} */
+
+
+.nav {
+  background: rgb(1, 77, 161);
+  width: 100%;
+  height: 150px;
+}
+
+/* 链接样式 */
+.topLink {
+  margin-bottom: 30px;
+  text-align: right;
+  margin-right: 30px;
+  padding-top: 10px;
+}
+
+.topa {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
+.bottomLink {
+  padding-top: 30px;
+  float: right;
+  margin-right: 30px;
+  /* margin-top: -90px; */
+}
+
+/* 下拉列表 */
+ul li {
+  height: 30px;
+  width: 115px;
+  list-style: none;
+  float: left;
+  /* margin-left: 10px; */
+  /* display: inline; */
+  font-size: large;
+  text-align: center;
+}
+
+ul li a {
+  color: #FFF;
+  width: 113px;
+  margin: 0px;
+  height: 50px;
+  padding: 0px 0px 0px 8px;
+  /* padding-left: 20px; */
+  text-decoration: none;
+  display: block;
+  background: none;
+  line-height: 29px;
+  border: none;
+  font-size: medium
+}
+
+ul li ul li {
+  height: 50px;
+}
+
+ul li ul li a {
+  font-size: medium;
+  text-align: center;
+  background: #daefff;
+  line-height: 24px;
+  height: 50px;
+  color: #014da1;
+
+}
+
+ul li a:hover {
+  background-color: rgba(107, 107, 107, 0.5);
+}
+
+ul li ul {
+  visibility: hidden;
+}
+
+ul li:hover ul {
+  visibility: visible;
+}
+
+ul li ul li a:hover {
+  background: #6483c2;
+}
+
+.main {
+  width: 100%;
+  height: 520px;
+}
+
+.functionLink {
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  width: 100%;
+  height: 120px;
+  background-color: #daefff;
+  /*设置背景条纹*/
+  background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, 0.5) 5px, rgba(255, 255, 255, 0.5) 70px);
+  --darkreader-inline-bgcolor: rgb(1, 77, 161);
+  --darkreader-inline-bgimage: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 35px, rgba(24, 26, 27, 0.5) 35px, rgba(24, 26, 27, 0.5) 70px);
+}
+
+.functionLi {
+  height: 30px;
+  width: 115px;
+  list-style: none;
+  float: left;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* display: inline; */
+  font-size: large;
+  text-align: center
+}
+
+.functionA {
+  color: #014da1;
+  width: 113px;
+  margin: 0px;
+  height: 50px;
+  padding: 0px 0px 0px 8px;
+  /* padding-left: 20px; */
+  text-decoration: none;
+  display: block;
+  background: none;
+  line-height: 29px;
+  border: none;
+  font-size: small;
+}
+
+.functionLi:hover {
+  transform: translate(0px, -10px);
+}
+
+.functionA:hover {
+  background: none;
+}
+
+.schoolPic {
+  width: 100%;
+  height: 420px;
+  background: url("profile_img/bn-1.png");
+  background-size: 130%;
+}
+
+.menu {
+  float: left;
+  margin-left: 100px;
+  transform: translate(0,-60px);
+  height: 2652.8px;
+}
+
+.menu a {
+  display: block;
+  vertical-align: middle;
+  width: 290px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: black;
+  border-left: 4px solid #a0a2a3;
+  text-decoration: none;
+}
+
+#schoolProfile {
+  color: aliceblue;
+  background: #014da1;
+  border-left: 4px solid #014da1;
+}
+.menu a:hover{
+  background-color: rgba(196, 196, 196, 0.5);
+  border-left: 4px solid #014da1;
+}
+.detailProfile{
+  float: left;
+  border-bottom: 1px solid #babcbd;
+  width: 1125px;
+}
+.essayTitle{
+  float: left;
+}
+.essayTitle h2{
+  font-size: 25px;
+  font-family: 'SimSun', sans-serif;
+  font-weight: bold;
+  border-bottom: 4px solid #014da1;
+  padding-bottom: 20px;
+  float: left;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.route{
+  float: left;
+  margin-top: 50px;
+}
+.route span{
+  float: right;
+  color: rgb(163, 165, 165);
+  width: 900px;
+  text-align: right;
+}
+.route a{
+  text-decoration: none;
+  color: rgb(163, 165, 165);
+}
+.body{
+  width: 1125px;
+}
+p{
+  text-indent: 2em; /* 设置首缩进为2个空格的宽度 */
+  line-height: 2.5; /* 设置行高为文字大小的2.5倍 */
+}
+
+/* footer板块设计 */
+.footer{
+	background: url("img/footer_bg.jpg");
+	width: 100%;
+	height: 315px;
+	margin-top: 80px;
+	text-align: center; /* 水平居中 */
+}
+.footImg {
+	float: left;
+  max-width: 100%; /* 图片宽度不超过容器宽度 */
+  max-height: 100%; /* 图片高度不超过容器高度 */
+  vertical-align: middle; /* 垂直居中 */
+	margin-top: 70px;
+	margin-left: 50px;
+	z-index: 1;
+}
+.infoList{
+	float: left;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+.infoList span{
+	color: #FFF;
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'SimSun', sans-serif;
+}
+.socialIconUp{
+	float: left;
+	width: 325px;
+	height: 86.6px;
+	margin-top: 100px;
+	padding-right: 10px;
+}
+.socialIconUp img{
+	margin-left: 40px;
+	margin-left: 30px;
+  width: 40px; /* 设置容器宽度 */
+  height: 40px; /* 设置容器高度 */
+  overflow: hidden; /* 隐藏超出容器的部分 */
+  border-radius: 50%; /* 创建圆形边框 */
+  border: 1px solid #fff; /* 边框样式 */
+
+}
+.socialIconDown{
+	float: left;
+	width: 325px;
+	height: 86.6px;
+}
+.socialIconDown img{
+	margin-left: 30px;
+  width: 40px; /* 设置容器宽度 */
+  height: 40px; /* 设置容器高度 */
+  overflow: hidden; /* 隐藏超出容器的部分 */
+  border-radius: 50%; /* 创建圆形边框 */
+  border: 1px solid #fff; /* 边框样式 */
+}
