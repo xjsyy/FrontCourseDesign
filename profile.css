@@ -258,7 +258,7 @@ p{
 .infoList{
 	float: left;
 	margin-top: 100px;
-	margin-left: 30px;
+	margin-left: -320px;
 }
 .infoList span{
 	color: #FFF;
