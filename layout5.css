@@ -214,8 +214,6 @@ ul li ul li a:hover {
 	height: 400px;
 } */
 
-
-
 /* 动态板块 */
 .dynamic {
 	background: url("img/wenhua.jpg");
@@ -635,4 +633,64 @@ ul li ul li a:hover {
 	text-decoration: none;
 	color: #014da1;
 	margin-left: 25px;
+}
+
+/* footer板块设计 */
+.footer{
+	background: url("img/footer_bg.jpg");
+	width: 100%;
+	height: 315px;
+	margin-top: 50px;
+	text-align: center; /* 水平居中 */
+}
+.footImg {
+	float: left;
+  max-width: 100%; /* 图片宽度不超过容器宽度 */
+  max-height: 100%; /* 图片高度不超过容器高度 */
+  vertical-align: middle; /* 垂直居中 */
+	margin-top: 70px;
+	margin-left: 50px;
+	z-index: 1;
+}
+.infoList{
+	float: left;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+.infoList span{
+	color: #FFF;
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: 'SimSun', sans-serif;
+}
+.socialIconUp{
+	float: left;
+	width: 325px;
+	height: 86.6px;
+	margin-top: 100px;
+	padding-right: 10px;
+}
+.socialIconUp img{
+	margin-left: 40px;
+	margin-left: 30px;
+  width: 40px; /* 设置容器宽度 */
+  height: 40px; /* 设置容器高度 */
+  overflow: hidden; /* 隐藏超出容器的部分 */
+  border-radius: 50%; /* 创建圆形边框 */
+  border: 1px solid #fff; /* 边框样式 */
+
+}
+.socialIconDown{
+	float: left;
+	width: 325px;
+	height: 86.6px;
+}
+.socialIconDown img{
+	margin-left: 30px;
+  width: 40px; /* 设置容器宽度 */
+  height: 40px; /* 设置容器高度 */
+  overflow: hidden; /* 隐藏超出容器的部分 */
+  border-radius: 50%; /* 创建圆形边框 */
+  border: 1px solid #fff; /* 边框样式 */
 }
