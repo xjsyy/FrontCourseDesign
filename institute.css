@@ -1,3 +1,4 @@
+
 * {
   font-size: 16px;
   margin: 0 auto;
@@ -46,11 +47,16 @@
 }
 
 .bottomLink {
-  padding-top: 30px;
+  /* padding-top: 30px; */
   float: right;
   margin-right: 30px;
-  /* margin-top: -90px; */
+  /* margin-top: -60px; */
 }
+/* .boo::after {
+  content: '';
+  display: table;
+  clear: both;
+} */
 
 /* 下拉列表 */
 ul li {
@@ -109,10 +115,10 @@ ul li ul li a:hover {
   background: #6483c2;
 }
 
-.main {
+/* .main {
   width: 100%;
   height: 520px;
-}
+} */
 
 .functionLink {
   display: flex;
@@ -174,7 +180,7 @@ ul li ul li a:hover {
   float: left;
   margin-left: 100px;
   transform: translate(0,-60px);
-  height: 2753.8px;
+  height: 1000px;
 }
 
 .menu a {
@@ -206,6 +212,10 @@ ul li ul li a:hover {
 .essayTitle{
   float: left;
 }
+.zhengwen{
+  float: left;
+  /* height: 1125px; */
+}
 .essayTitle h2{
   font-size: 25px;
   font-family: 'SimSun', sans-serif;
@@ -215,6 +225,10 @@ ul li ul li a:hover {
   float: left;
   margin-top: 40px;
   margin-left: 30px;
+}
+.main{
+  width: 100%;
+  height: 700px;
 }
 .route{
   float: left;
@@ -230,12 +244,26 @@ ul li ul li a:hover {
   text-decoration: none;
   color: rgb(163, 165, 165);
 }
-.body{
+.bod{
   width: 1125px;
+  height: 500px;
 }
-p{
-  text-indent: 2em; /* 设置首缩进为2个空格的宽度 */
-  line-height: 2.5; /* 设置行高为文字大小的2.5倍 */
+.institute{
+  margin-left: 50px;
+}
+.institute a{
+  float: left;
+  width: 288.5px;
+  text-align: center;
+  vertical-align: middle;
+  height: 50px;
+  color: black;
+  text-decoration: none;
+  background: #d5d7d8;
+}
+.institute a:hover{
+  background: #014da1;
+  color: #FFF;
 }
 
 /* footer板块设计 */
@@ -257,8 +285,8 @@ p{
 }
 .infoList{
 	float: left;
-	margin-top: 100px;
-	margin-left: 30px;
+	margin-top: 50px;
+	margin-left: -320px;
 }
 .infoList span{
 	color: #FFF;
